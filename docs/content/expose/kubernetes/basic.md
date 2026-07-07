@@ -337,7 +337,7 @@ kubectl create secret tls whoami-tls --cert=tls.crt --key=tls.key
           mode: Terminate
           certificateRefs:
             - kind: Secret
-              name: local-selfsigned-tls
+              name: whoami-tls
               group: ""
     ```
 
